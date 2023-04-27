@@ -1,0 +1,30 @@
+@media screen and (min-width: 390px) and (max-width: 844px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  img {
+    width: 100%;
+  }
+  .writings {
+    position: absolute;
+    top: 50px;
+    color: white;
+    left: 23%;
+    text-align: center;
+  }
+  .qus a {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    background-color: rgb(220, 220, 240);
+    padding: 5px 30px;
+    border-radius: 10px;
+  }
+  .qus {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
